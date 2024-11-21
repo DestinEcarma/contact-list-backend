@@ -28,7 +28,7 @@ A simple REST API application for managing a contact list, developed as part of 
   }
   ```
 
-- `GET http://localhost:{PORT}/display`
+- **GET** `http://localhost:{PORT}/display`
 
   **Returned Data:**
 
@@ -43,7 +43,7 @@ A simple REST API application for managing a contact list, developed as part of 
   }[]
   ```
 
-- `POST http://localhost:{PORT}/delete?id={id}`
+- **POST** `http://localhost:{PORT}/delete?id={id}`
 
 ## Usage
 
