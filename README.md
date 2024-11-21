@@ -66,8 +66,8 @@ To set up and run the application, follow these steps:
   Create a MySQL database and table using the following SQL commands:
 
   ```sql
-  CREATE DATABASE {db_name};
-  USE {db_name};
+  CREATE DATABASE db_name;
+  USE db_name;
 
   CREATE TABLE contact_list (
     id int PRIMARY KEY AUTO_INCREMENT,
